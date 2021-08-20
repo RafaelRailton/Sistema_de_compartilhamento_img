@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,11 @@
   },
   "homepage": "https://github.com/RafaelRailton/Sistema_de_compartilhamento_img#readme",
   "dependencies": {
+    "@types/jest": "^27.0.1",
     "express": "^4.17.1",
     "jest": "^27.0.6",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.13.7"
+    "mongoose": "^5.13.7",
+    "supertest": "^6.1.6"
   }
 }
